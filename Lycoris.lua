@@ -61,8 +61,8 @@ local UpdateNotifier = require("Game/UpdateNotifier")
 ---@module Features.Automation.EchoFarm
 local EchoFarm = require("Features/Automation/EchoFarm")
 
----@module Features.Automation.JoyFarm
-local JoyFarm = require("Features/Automation/JoyFarm")
+---@module Features.Automation.AutoDepths
+local AutoDepths = require("Features/Automation/AutoDepths")
 
 -- Lycoris maid.
 local lycorisMaid = Maid.new()
