@@ -189,6 +189,12 @@ function CombatTab.initAutoDefenseSection(groupbox)
 		Tooltip = "If enabled, the auto defense will check the incoming attack's animation for any abnormalities to prevent AP breaking.",
 	})
 
+	autoDefenseDepBox:AddToggle("UseAutoParryFrames", {
+		Text = "Use Auto Parry Frames",
+		Default = false,
+		Tooltip = "If enabled, the auto defense will ignore parry actions if there is AP frames.",
+	})
+
 	autoDefenseDepBox:AddToggle("ParryOnly", {
 		Text = "Parry Dodgeables",
 		Default = false,
